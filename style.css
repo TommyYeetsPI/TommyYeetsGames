@@ -34,5 +34,17 @@ header ul{
   align-items:center;
 }
 header ul li{
-  list-style: none
+  list-style: none;
+  margin-left:20px;
+}
+header ul li a{
+  text-decoration: none;
+  padding: 6px 15px;
+  color: white;
+  border-radius: 20px;
+}
+header ul li a:hover, 
+header ul li a.active{
+  background:white;
+  Color:black;
 }
